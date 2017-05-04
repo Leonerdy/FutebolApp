@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:infra="clr-namespace:Soccer.Infrastructure;assembly=Soccer"
+    x:Class="Soccer.App">
+    <Application.Resources>
+        <ResourceDictionary>
+
+            <!-- Locator -->
+            <infra:InstanceLocator x:Key="Locator"></infra:InstanceLocator>
+
+            <!-- Parameters -->
+            <x:String x:Key="URLBase">http://soccerapi.azurewebsites.net</x:String>
+
+            <!-- Colors -->
+            <Color x:Key="MainColor">#494E50</Color>
+            <Color x:Key="FontColor">#161605</Color>
+            <Color x:Key="AccentColor1">#DDE0C6</Color>
+            <Color x:Key="AccentColor2">#B5BE76</Color>
+            <Color x:Key="BackgroundColor">#839851</Color>
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
